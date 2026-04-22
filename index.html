@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ALAREX · A read on where AI fits in the stack</title>
+<meta name="description" content="You're Ja'Rell, right. BeachLens hit two thousand users in the first month, EDEN AI posted in July. The thing eating your weekends is deciding which of those three tracks gets the next two weeks." />
+<meta name="robots" content="noindex" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="topbar">
+      <div class="wordmark" aria-label="ALAREX">A L A R E X</div>
+      <div class="topbar-meta">Prepared for Ja'Rell Felix</div>
+    </div>
+
+    <div class="eyebrow">eMerge Americas 2026 · Booth SS64</div>
+
+    <h1>A read on where AI fits in ALAREX's stack, and <em>where it doesn't.</em></h1>
+
+    <p class="hero-sub">Three product tracks. One founder. One summer of Florida beach season to prove the consumer side converts. That is a context problem before it is an AI problem.</p>
+
+    <div class="hero-meta-row">
+      <div class="hero-meta-item">
+        <span class="label">BeachLens</span>
+        <span class="value">2,000+ users, month one</span>
+      </div>
+      <div class="hero-meta-item">
+        <span class="label">EDEN AI</span>
+        <span class="value">Alpha · 50 pilot call</span>
+      </div>
+      <div class="hero-meta-item">
+        <span class="label">Trident</span>
+        <span class="value">Surface vessel, sensor data</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="frame">
+  <div class="wrap">
+    <div class="rule-label">The frame</div>
+    <h2>Most of what ALAREX is building is not AI work.</h2>
+    <p>BeachLens is live, two thousand users in the first month, and a Waze-style reporting layer on top of real-time Florida water data. EDEN AI and Trident are in alpha with a call out for fifty pilots. Aerobian is in the garage.</p>
+    <p>The beachgoer app is traditional code and database work with a live-data feed layered on top. The business dashboard is a two-sided marketplace motion that lives and dies on sales cadence, not on model quality. EDEN AI is the one piece where the model itself is the product, and even there, the hardest problems sit below the model: sensor data pipeline, label quality, accuracy documentation that a county or state procurement team can sign off on.</p>
+
+    <div class="split">
+      <p>Our working split on a stack like this is sixty percent traditional code and database work, thirty percent rule-based logic (water-quality thresholds, alert rules, dashboard triggers), ten percent genuine AI. Putting an LLM where Postgres would do the job faster and cheaper is the cost most founders pay. We would rather help you see it early.</p>
+
+      <aside class="ratio-card" aria-label="Computational orchestration split">
+        <div class="ratio-title">60 / 30 / 10</div>
+        <div class="ratio-row">
+          <div class="ratio-num">60</div>
+          <div class="ratio-label"><strong>Traditional code &amp; database.</strong> App logic, data feeds, auth, storage.</div>
+        </div>
+        <div class="ratio-row">
+          <div class="ratio-num">30</div>
+          <div class="ratio-label"><strong>Rule-based logic.</strong> Thresholds, alerts, dashboard triggers.</div>
+        </div>
+        <div class="ratio-row">
+          <div class="ratio-num">10</div>
+          <div class="ratio-label"><strong>Genuine AI.</strong> Where the model itself is the product.</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="tracks">
+  <div class="wrap">
+    <div class="rule-label">The three tracks</div>
+    <h2>One founder, three surfaces, one engagement window.</h2>
+
+    <div class="tracks-grid">
+      <article class="track">
+        <div class="track-tag">Track 01 · Consumer</div>
+        <h3>BeachLens</h3>
+        <p class="track-note">Real-time beach conditions, Waze-style reporting, personalized picks. Live on the App Store. The near-term revenue story is the beachfront-business dashboard and how fast app density converts to paid subscribers.</p>
+      </article>
+
+      <article class="track">
+        <div class="track-tag">Track 02 · Environmental AI</div>
+        <h3>EDEN AI</h3>
+        <p class="track-note">Harmful-algae-bloom and water-quality detection. The model is the product here. The procurement gate is a model card, an accuracy methodology, and label-quality documentation a county or state office can sign off on.</p>
+      </article>
+
+      <article class="track">
+        <div class="track-tag">Track 03 · Hardware</div>
+        <h3>Trident</h3>
+        <p class="track-note">Surface vessel for water-quality monitoring and response. Once fifty pilots are reporting, the live question is where that data lives and who owns the pipeline from sensor to dashboard.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="proof">
+  <div class="wrap">
+    <div class="rule-label">Precedent</div>
+    <h2>The shape of the engagement that would actually help.</h2>
+
+    <div class="proof-row">
+      <div class="proof-block">
+        <div class="proof-kicker">Case · Feeld</div>
+        <h3>A scoped sprint with a product company's CTO.</h3>
+        <p>My colleague Jake ran a scoped sprint with Andrew Santus, CTO of Feeld. A product company with multiple AI surfaces, a founder trying to figure out what to build in-house and what to partner out. Deliverables were a workshop, advisory calls, an Organizational Context Architecture, and a Strategic Operations Framework. That is the shape of the engagement that would actually help here.</p>
+      </div>
+
+      <div class="proof-block">
+        <div class="proof-kicker">Method · ICM</div>
+        <h3>Interpretable Context Methodology.</h3>
+        <p>Jake's methodology is published in ACM TiiS. It treats agent and project context as a layered file structure, which is useful when you are running three product lines with a student team. Repo: <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>.</p>
+        <p style="margin-top: 20px; font-size: 14px; color: var(--ink-soft);">For the EDEN AI pipeline work, Eduba partners with NLP Logix, who have been in machine learning since 2011 and run over 150 data scientists. That is the right vehicle if the near-term need turns out to be production ML rather than prioritization.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap wrap--narrow cta-inner">
+    <div class="rule-label" style="color: var(--accent);">Next step</div>
+    <h2>Thirty minutes with Matt. Bring the three-track calendar for the next sixty days.</h2>
+    <p>We will do a live pass on what stays, what gets deferred, and where NLP Logix would be the right vehicle for the EDEN AI data pipeline.</p>
+
+    <div class="cta-row">
+      <a class="btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+        Book thirty minutes <span class="arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <div class="cta-meta">
+        Matt Creamer, CRO · Eduba<br />
+        <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-row">
+      <div>Prepared by Eduba · <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></div>
+      <div>For ALAREX · eMerge Americas 2026 · Booth SS64</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
